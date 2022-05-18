@@ -33,7 +33,7 @@
             <img src="images/chevron_right.svg" class="px-2" alt="back" />
           </a>
         </div>
-        <div class="d-flex justify-content-between w-100 button-section">
+        <div class="d-flex justify-content-between w-100 button-section px-1">
           <button type="button" class="btn-primary-custom choose-plan">
             Return & Exchange
           </button>
@@ -55,7 +55,7 @@
         </div>
         <div class="d-flex w-100 py-4">
           <div class="d-flex flex-column w-75">
-            <div class="d-flex w-100 main-content px-3">
+            <div class="d-flex w-100 main-content">
               <div
                 class="d-flex flex-column align-content-center leftside-main px-3 py-2 mt-4 w-25"
               >
@@ -113,7 +113,7 @@
                 </div>
               </div>
               <div
-                class="d-flex flex-column w-75 px-3 py-2 mt-4 bg-secondary tab-main"
+                class="d-flex flex-column w-75 px-3 py-2 mt-4   tab-main"
               >
                 <ul class="nav nav-tabs" role="tablist">
                   <li class="nav-item" role="presentation">
@@ -194,7 +194,7 @@
                 </div>
               </div>
             </div>
-            <div class="d-flex flex-column mx-3 mt-2">
+            <div class="d-flex flex-column  mt-2">
               <div class="px-4 customer-info-main">
                 <div class="customer-info-heading">Customer Info</div>
                 <div class="d-flex w-100 py-3">
@@ -239,97 +239,28 @@
             </div>
           </div>
 
-          <div class="d-flex w-25 bg-primary mt-4 timeline-main">
-            <div class="d-flex flex-column w-100 p-4">
-              <div class="timeline-heading">Timeline</div>
-              <div class="d-flex flex-column w-100">
-                <div class="timeline-content-main">
-                  <div
-                    class="d-flex justify-content-between align-items-center w-100 py-3"
-                  >
-                    <div class="timeline-date-text">31 Jan</div>
+          <div class="d-flex w-25 px-2">
+            <div class="d-flex w-100  mt-4 timeline-main ">
+              <div class="d-flex flex-column w-100 p-4">
+                <div class="timeline-heading">Timeline</div>
+                <div class="d-flex flex-column w-100">
+                  <div class="timeline-content-main">
                     <div
-                      class="d-flex justify-content-between align-items-center"
+                      class="d-flex justify-content-between align-items-center w-100 py-3"
                     >
-                      <img
-                        src="images/profile_img.svg"
-                        class="image-circle profile-img"
-                        alt="profile"
-                      />
-                      <span class="timeline-email">user@demo.com</span>
+                      <div class="timeline-date-text">31 Jan</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <img
+                          src="images/profile_img.svg"
+                          class="image-circle profile-img"
+                          alt="profile"
+                        />
+                        <span class="timeline-email">user@demo.com</span>
+                      </div>
                     </div>
-                  </div>
-                  <div
-                  class="d-flex flex-column"
-                >
-                <div class="d-flex justify-content-between align-items-center timeline-status-main">
-                  <div class="d-flex flex-column w-100">
-                    <span class="timeline-status-text">Request Rejected</span>
-                   
-                  </div>
-                  <img
-                    src="images/angle-double-down.svg"
-                    class="expand-notes" alt="angle down" onClick="toggle('target1')"
-                  />
-                </div>
-                <div class="px-1 notes-content hide" id="target1">
-                  <p class="notes mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-                </div>
-                 
-                </div>
-                </div>
-                <div class="timeline-content-main">
-                  <div
-                    class="d-flex justify-content-between align-items-center w-100 py-3"
-                  >
-                    <div class="timeline-date-text">31 Jan</div>
                     <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <img
-                        src="images/profile_img.svg"
-                        class="image-circle profile-img"
-                        alt="profile"
-                      />
-                      <span class="timeline-email">user@demo.com</span>
-                    </div>
-                  </div>
-                  <div
-                  class="d-flex flex-column"
-                >
-                <div class="d-flex justify-content-between align-items-center timeline-status-main">
-                  <div class="d-flex flex-column w-100">
-                    <span class="timeline-status-text">Request Rejected</span>
-                   
-                  </div>
-                  <img
-                    src="images/angle-double-down.svg"
-                    class="expand-notes" alt="angle down" onClick="toggle('target2')"
-                  />
-                </div>
-                <div class="px-1 notes-content hide" id="target2">
-                  <p class="notes mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-                </div>
-                 
-                </div>
-                </div>
-                <div class="timeline-content-main">
-                  <div
-                    class="d-flex justify-content-between align-items-center w-100 py-3"
-                  >
-                    <div class="timeline-date-text">31 Jan</div>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <img
-                        src="images/profile_img.svg"
-                        class="image-circle profile-img"
-                        alt="profile"
-                      />
-                      <span class="timeline-email">user@demo.com</span>
-                    </div>
-                  </div>
-                  <div
                     class="d-flex flex-column"
                   >
                   <div class="d-flex justify-content-between align-items-center timeline-status-main">
@@ -339,32 +270,32 @@
                     </div>
                     <img
                       src="images/angle-double-down.svg"
-                      class="expand-notes" alt="angle down" onClick="toggle('target3')"
+                      class="expand-notes" alt="angle down" onClick="toggle('target1')"
                     />
                   </div>
-                  <div class="px-1 notes-content hide" id="target3">
+                  <div class="px-1 notes-content hide" id="target1">
                     <p class="notes mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
                   </div>
                    
                   </div>
-                </div>
-                <div class="timeline-content-main">
-                  <div
-                    class="d-flex justify-content-between align-items-center w-100 py-3"
-                  >
-                    <div class="timeline-date-text">31 Jan</div>
-                    <div
-                      class="d-flex justify-content-between align-items-center"
-                    >
-                      <img
-                        src="images/profile_img.svg"
-                        class="image-circle profile-img"
-                        alt="profile"
-                      />
-                      <span class="timeline-email">user@demo.com</span>
-                    </div>
                   </div>
-                  <div
+                  <div class="timeline-content-main">
+                    <div
+                      class="d-flex justify-content-between align-items-center w-100 py-3"
+                    >
+                      <div class="timeline-date-text">31 Jan</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <img
+                          src="images/profile_img.svg"
+                          class="image-circle profile-img"
+                          alt="profile"
+                        />
+                        <span class="timeline-email">user@demo.com</span>
+                      </div>
+                    </div>
+                    <div
                     class="d-flex flex-column"
                   >
                   <div class="d-flex justify-content-between align-items-center timeline-status-main">
@@ -374,18 +305,90 @@
                     </div>
                     <img
                       src="images/angle-double-down.svg"
-                      class="expand-notes" alt="angle down" onClick="toggle('target4')"
+                      class="expand-notes" alt="angle down" onClick="toggle('target2')"
                     />
                   </div>
-                  <div class="px-1 notes-content hide" id="target4">
+                  <div class="px-1 notes-content hide" id="target2">
                     <p class="notes mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
                   </div>
                    
+                  </div>
+                  </div>
+                  <div class="timeline-content-main">
+                    <div
+                      class="d-flex justify-content-between align-items-center w-100 py-3"
+                    >
+                      <div class="timeline-date-text">31 Jan</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <img
+                          src="images/profile_img.svg"
+                          class="image-circle profile-img"
+                          alt="profile"
+                        />
+                        <span class="timeline-email">user@demo.com</span>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex flex-column"
+                    >
+                    <div class="d-flex justify-content-between align-items-center timeline-status-main">
+                      <div class="d-flex flex-column w-100">
+                        <span class="timeline-status-text">Request Rejected</span>
+                       
+                      </div>
+                      <img
+                        src="images/angle-double-down.svg"
+                        class="expand-notes" alt="angle down" onClick="toggle('target3')"
+                      />
+                    </div>
+                    <div class="px-1 notes-content hide" id="target3">
+                      <p class="notes mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                    </div>
+                     
+                    </div>
+                  </div>
+                  <div class="timeline-content-main">
+                    <div
+                      class="d-flex justify-content-between align-items-center w-100 py-3"
+                    >
+                      <div class="timeline-date-text">31 Jan</div>
+                      <div
+                        class="d-flex justify-content-between align-items-center"
+                      >
+                        <img
+                          src="images/profile_img.svg"
+                          class="image-circle profile-img"
+                          alt="profile"
+                        />
+                        <span class="timeline-email">user@demo.com</span>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex flex-column"
+                    >
+                    <div class="d-flex justify-content-between align-items-center timeline-status-main">
+                      <div class="d-flex flex-column w-100">
+                        <span class="timeline-status-text">Request Rejected</span>
+                       
+                      </div>
+                      <img
+                        src="images/angle-double-down.svg"
+                        class="expand-notes" alt="angle down" onClick="toggle('target4')"
+                      />
+                    </div>
+                    <div class="px-1 notes-content hide" id="target4">
+                      <p class="notes mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
+                    </div>
+                     
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        
         </div>
       </div>
     </div>
